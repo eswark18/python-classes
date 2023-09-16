@@ -2,7 +2,7 @@
 
 # Program to find the length of the string:
 
-str = "Aravind"
+str = "Python"
 # manual input ===>  str = input("Enter a String: ")
 counter = 0
 
@@ -35,7 +35,7 @@ Program to get a string made of first 2 and last 2 chars from a given string. If
 return it instead of an empty string:
 '''
 
-string = "Aravind"
+string = "Python"
 # for manual input ===>  string = input("Enter a string: ")
 
 if len(string) > 2:
@@ -50,7 +50,7 @@ Program to get a string where all the occurrences of the first char is replaced 
 itself: 
 '''
 
-str = "aravind"
+str = "Python"
 # for manual input ===>  string = input("Enter a string: ")
 char = str[0]
 for i in str:
@@ -119,7 +119,7 @@ def longest(my_list):
     return word
 
 
-my_list = ['bala', 'aravind', 'ram']
+my_list = ['bala', 'Python', 'ram']
 print(longest(my_list))
 #####################################################################################################################
 
@@ -127,7 +127,7 @@ print(longest(my_list))
 Program to remove the nth index character from a nonempty string:
 '''
 
-str = "aravind"
+str = "Python"
 # for manual input ==>  str = input("Enter the string: ")
 n = 3
 # for manual input ==>  n = int(input("Enter the index of character to be removed: "))
@@ -145,7 +145,7 @@ print(str)
 Program to change a given string to new string where the first and last chars have been exchanged:
 '''
 
-str = "aravind"
+str = "Python"
 # str = input("Enter a String: ")
 
 if len(str) > 1:
@@ -157,7 +157,7 @@ if len(str) > 1:
 Program to remove characters which have odd values in a given string
 '''
 
-str = "aravind"
+str = "Python"
 # str = input("Enter a String: ")
 s = ""
 for i in range(len(str)):
@@ -186,7 +186,7 @@ print("Word Occurrence Count is", count)
 Write a Python script to take input from user and display it in both Upper and lower cases
 '''
 
-str = "aravind"
+str = "Python"
 # str = input("Enter a String: ")
 
 if len(str) > 1:
@@ -223,7 +223,7 @@ print(add_htmltags('t', 'text'))
 Python function to insert a new string in the middle of the string
 '''
 
-a = "aravindgmail.com"
+a = "Pythongmail.com"
 
 
 def insert_char(mystring, position, chartoinsert):
@@ -234,7 +234,7 @@ def insert_char(mystring, position, chartoinsert):
 
 print(insert_char(a, 7, '@'))
 # sample output
-# ==> aravind@gmail.com
+# ==> Python@gmail.com
 #################################################################################################################
 
 '''
@@ -289,7 +289,7 @@ print(to_upper("PyThon"))
 Program to check whether a given string starts with specific characters:
 '''
 
-str = "aravind"
+str = "Python"
 # for manual input ==> str = input("Enter a String to Check: ")
 s = 'a'
 # for manual input ==> s = input("Enter a Specific character: ")

@@ -8,6 +8,7 @@ for i in range(0, len(mylist)):
     total += mylist[i]
 
 print("Sum of all elements in the list is", total)
+print('Hi')
 #################################################################################################################
 
 '''
